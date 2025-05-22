@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+/* ___ Navigation Bar ___ */
+.nav-bar {
+  background-color: gray;
+  padding: 25px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+  .Brand {
+    display:flex;
+    margin-right: 25px;
+  }
+
+    #logo {
+      width: 25px;
+      margin-right: 10px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: lightgray;
+    }
+
+.nav-bar ul li {
+  margin: 0 15px;
+}
+
+.nav-bar ul li:hover {
+  cursor: pointer;
+}
+/* ___ END OF NAVBAR ___ */
