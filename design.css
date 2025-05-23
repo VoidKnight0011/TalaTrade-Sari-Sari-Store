@@ -4,12 +4,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway";
+  font-family: "Poppins";
 }
 
-/* ___ Navigation Bar ___ */
+  /* ___ Navigation Bar ___ */
 .nav-bar {
-  background-color: gray;
+  background-color: #d2d3db;
   padding: 25px;
 }
 
@@ -23,22 +23,87 @@
 
   .Brand {
     display:flex;
-    margin-right: 25px;
+    margin-right: 50px;
   }
 
     #logo {
-      width: 25px;
+      background-color: yellow;
+      width: 35px;
       margin-right: 10px;
-      height: 25px;
+      height: 35px;
       border-radius: 50%;
-      background-color: lightgray;
     }
 
 .nav-bar ul li {
   margin: 0 15px;
+    font-size: 23px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  font-weight: 525;
+  color: #484b6a;
+}
+
+.nav-bar ul li i {
+  color: #484b6a;
+  margin: 0 0 0 0;
 }
 
 .nav-bar ul li:hover {
   cursor: pointer;
 }
+
+  .Cart-Btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 7.5px;
+    width: 80px;
+    overflow: hidden;
+  }
+
+  i .bxs-cart-alt {
+    margin-right: 10px;
+  }
+
 /* ___ END OF NAVBAR ___ */
+
+
+
+  /* ___ THEMES ___ */
+.theme-light #Theme-A {
+  background-color: yellow;
+}
+.theme-light #Theme-B {
+  background-color: #d2d3db;
+}
+.theme-light #Theme-C {
+  background-color: green;
+}
+.theme-light #Theme-Btn-A {
+  background-color: Black;
+}
+.theme-light #Theme-Text {
+  color: #484b6a;
+}
+
+
+
+.theme-dark #Theme-A {
+  background-color: aqua;
+}
+.theme-dark #Theme-B {
+  background-color: #14110b;
+}
+.theme-dark #Theme-C {
+  background-color: violet;
+}
+.theme-dark #Theme-Btn-A {
+  background-color: #d2d3db;
+}
+.theme-dark #Theme-Text {
+  color: white;
+}
+/* ___ END OF THEMES___ */
