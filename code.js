@@ -1,5 +1,6 @@
+    // ___ THEME TOGGLE JS ___ //
 let Theme = false;
-const ThemeToggle = document.getElementsByClassName('Theme-Change');
+const ThemeToggle = document.getElementById('Theme-Change');
 
 ThemeToggle.addEventListener("click", () => {
   Theme = !Theme;
@@ -15,3 +16,4 @@ ThemeToggle.addEventListener("click", () => {
     document.body.classList.add("theme-light");
   }
 });
+// _____ THEME TOGGLE END _____ //
