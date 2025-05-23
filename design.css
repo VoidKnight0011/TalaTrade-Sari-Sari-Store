@@ -17,8 +17,8 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 50px;
+  align-items: center;
 }
 
   .Brand {
@@ -36,7 +36,8 @@
 
 .nav-bar ul li {
   margin: 0 15px;
-    font-size: 23px;
+  font-size: 23px;
+  letter-spacing: -1.5px;
 }
 
 .nav-bar ul li a {
@@ -54,25 +55,41 @@
   cursor: pointer;
 }
 
-  .Cart-Btn {
-    display: flex;
+  .Tala-Btn {
     justify-content: space-around;
     align-items: center;
     background-color: black;
     border-radius: 7.5px;
-    width: 80px;
     overflow: hidden;
+    color: white;
   }
+  
+  .Cart {
+    padding: 1.5px;
+    width: 90px;
+    display: flex;
+  }
+  .Account {
+    width: 100px;
+    display: block;
+  }
+    p#T-B_A-Top {
+      letter-spacing: 1px;
+      margin: 5px 5px 0 5px;
+      font-size: 10px;
+    }
+    p#T-B_A-Bottom {
+      margin: -6px 5px 5px 5px;
+      font-size: 15px;
+    } 
 
-  i .bxs-cart-alt {
-    margin-right: 10px;
-  }
 
 /* ___ END OF NAVBAR ___ */
 
 
 
   /* ___ THEMES ___ */
+
 .theme-light #Theme-A {
   background-color: yellow;
 }
@@ -84,6 +101,7 @@
 }
 .theme-light #Theme-Btn-A {
   background-color: Black;
+  color: white
 }
 .theme-light #Theme-Text {
   color: #484b6a;
@@ -102,8 +120,10 @@
 }
 .theme-dark #Theme-Btn-A {
   background-color: #d2d3db;
+  color: black;
 }
 .theme-dark #Theme-Text {
   color: white;
 }
+
 /* ___ END OF THEMES___ */

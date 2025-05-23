@@ -1,5 +1,5 @@
 let Theme = false;
-const ThemeToggle = document.getElementById('Theme-Change');
+const ThemeToggle = document.getElementsByClassName('Theme-Change');
 
 ThemeToggle.addEventListener("click", () => {
   Theme = !Theme;
