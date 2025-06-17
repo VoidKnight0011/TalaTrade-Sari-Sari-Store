@@ -7,6 +7,10 @@
   font-family: "Poppins";
 }
 
+body {
+  min-height: 100vh;
+}
+
 /* Typography */
 
 h1 {font-size: 60px; }
@@ -23,13 +27,12 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .nav-bar li{
   list-style: none;
   text-decoration: none;
-  margin: 5px 10px;
+  margin: 5px 7px;
   cursor: pointer;
   font-size: large;
 }
@@ -53,14 +56,17 @@ h2 {
           background-size: cover;
           background-repeat: no-repeat;
           border-radius: 100%;
-          width: 30px;
-          height: 30px;
+          width: 40px;
+          height: 40px;
         }
 
         .brand {
           text-decoration: none;
         }
-
+        
+        #active {
+          font-weight: 1000;
+        }
       /* Links and Buttons */
           a {
             color: #212121;
@@ -105,7 +111,23 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
       }
+        .dropdown {
+          position: absolute;
+          z-index: 1;
+          padding: 2px;
+          border-radius: 3px;
+          right: 5%;
+          top: 95%;
+          width: 7rem;
+          height: 3rem;
+          background-color: white;
+        }
+          .dropdown li {
+            font-size: 10px;
+          }
+          
       #user-img {
         margin: 5px;
         width: 40px;
@@ -113,7 +135,11 @@ h2 {
         border-radius: 100%;
       }
       li#user i {font-size: 15px;}
-
+      .dropdown li a{padding: 10px;}
+      .dropdown li:hover {
+        background-color: lightblue;
+        border-radius: 5px;
+      }
       /* Employee Dashboard */
       #employee-li i {
         display: block;
@@ -125,3 +151,6 @@ h2 {
         font-size: 12px;
         line-height: 1;
       }
+
+      /* Add the dropdown functionality and style below */
+
