@@ -1,2 +1,2 @@
-# TalaTrade-Sari-Sari-Store
-BSIT-1 (Second Semester - Summer) Information Management I - II Project [ CANCELLED, Switched Groups Both Remaining 2 Members ]
+[ Project Cancellation ! ] 
+Remaining 2 Members have Disbanded and joined  seperate groups in their IM 2 Schedules.
